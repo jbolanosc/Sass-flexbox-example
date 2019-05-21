@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.features-section{
+    width: 75%;
+    margin: auto;
+}
+
+.item{
+    margin: 2%;
+    text-align: justify;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(184,175,184,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(184,175,184,1);
+    box-shadow: 10px 10px 5px 0px rgba(184,175,184,1);
+}
+
+.main-text{
+    @include textStyle(3em, bold, $font);
+}
+
+.secondary-text{
+    @include textStyle(0.7em, bold, $font);
+    color: $gray;
+}
+
+.feature-title{
+    @include textStyle(1.6em, bold, $font);
+    margin-bottom: 1%;
+}
+
+.feature-content{
+    @include textStyle(0.6em, bold, $font);
+    color: $gray;
+}

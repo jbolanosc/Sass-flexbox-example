@@ -1,0 +1,40 @@
+@mixin textStyle($size, $weight, $font) {
+    font-family: $font;
+    font-size: $size;
+    font-weight: $weight;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.wrap{
+    flex: wrap;
+}
+
+.p-5{
+    padding: 5%;
+}
+
+.fixed-margin{
+    margin: 0;
+}
+
+.fixed-padding{
+    padding: 0;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-blue{
+    color: $blue;
+}
+
+
+.items-container{
+    width: 100%;
+}
